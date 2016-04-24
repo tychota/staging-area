@@ -1,3 +1,2 @@
 
-export default {authTokenName: 'Meatier.authToken'};
-
+export default {authTokenName: 'Artemis.authToken'};

@@ -12,14 +12,6 @@ const root = process.cwd();
 const clientInclude = [path.join(root, 'src', 'client'), path.join(root, 'src', 'universal'), /joi/, /isemail/, /hoek/, /topo/];
 const globalCSS = path.join(root, 'src', 'universal', 'styles', 'global');
 
-/* code can be: vendor-common, vendor-page-specific, meatier-common, meatier-page-specific
- * a small, fast landing page means only include the common from vendor + meatier
- * long-term caching means breaking apart meatier code from vendor code
- * The right balance in this case is to exclude material-ui from the vendor bundle
- * in order to keep the initial load small.
- * Cache vendor + app on a CDN and call it a day
- */
-
 const vendor = [
   'react',
   'react-dom',

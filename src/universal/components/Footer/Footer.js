@@ -8,7 +8,7 @@ export default class Footer extends Component {
     return (
       <div className={styles.Footer}>
         <div className={styles.container}>
-          <span className={styles.text}>© Meatier</span>
+          <span className={styles.text}>UE ENSAM</span>
           <span className={styles.spacer}>·</span>
           <Link to="/" className={styles.link}>Home</Link>
           <span className={styles.spacer}>·</span>

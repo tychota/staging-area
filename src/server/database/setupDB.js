@@ -1,7 +1,7 @@
 import r from './rethinkdriver';
 
 // ava is the test database
-const databases = ['meatier', 'ava'];
+const databases = ['artemis-drive', 'ava'];
 
 const database = [
   {name: 'users', indices: ['email']},

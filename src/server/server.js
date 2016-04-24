@@ -11,11 +11,10 @@ getDotenv();
 export const options = {
   authKey: process.env.JWT_SECRET,
   logLevel: 1,
-  // change this to scale vertically
-  workers: 1 || numCpus,
+  workers: numCpus,
   brokers: 1,
   port: process.env.PORT || 3000,
-  appName: 'Meatier',
+  appName: 'Artemis Drive',
   allowClientPublish: false,
   initController: path.join(__dirname, '/init.js'),
   workerController: path.join(__dirname, '/worker.js'),

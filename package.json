@@ -1,13 +1,13 @@
 {
-  "name": "meatier",
+  "name": "artemis-drive",
   "version": "0.10.0",
-  "description": "Like meteor, but meatier",
+  "description": "A simple wrapper over google drive",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattkrick/meatier.git"
+    "url": "git+https://github.com/Ananke-Gadz/artemis-drive.git"
   },
   "bugs": {
-    "url": "https://github.com/mattkrick/meatier/issues"
+    "url": "https://github.com/Ananke-Gadz/artemis-drive/issues"
   },
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "lint": "xo --fix 'src/**/*.js' 'tests/*.js' 'webpack/*.js'",
     "profile": "NODE_ENV=production webpack --config ./webpack/prod.babel.js --profile --json > stats.json"
   },
-  "author": "Matt Krick <matt.krick@gmail.com>",
+  "author": "Tycho Tatitscheff <tycho.tatitscheff@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "assets-webpack-plugin": "3.4.0",
