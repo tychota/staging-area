@@ -1,5 +1,7 @@
-@value primary: #61dafb;
-@value secondary: #373277;
+@value primary: #fff3d7;
+@value secondary: #d68f30;
+
+@value contrast: #8f3fd6;
 
 
 .brandColor {

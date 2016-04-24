@@ -10,11 +10,6 @@ export default class Header extends Component {
         <div className={styles.banner}>
           <h1 className={styles.bannerTitle}>Welcome to Artemis Drive</h1>
           <h3 className={styles.bannerDesc}>An Interface to Google Drive</h3>
-          <div className={styles.tryButton}>
-            <Link to="/kanban">
-              <RaisedButton secondary label="Try the Kanban"/>
-            </Link>
-          </div>
         </div>
       </div>
     );
