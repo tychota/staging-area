@@ -1,14 +1,31 @@
 # Artemis Drive
 
-[![Circle CI](https://img.shields.io/circleci/project/mattkrick/meatier/master.svg)](https://circleci.com/gh/mattkrick/meatier)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-
 *This project is based on the following framework : [Meatier](https://github.com/mattkrick/meatier)*
 
-TODO : insert a short explanation
+[![Circle CI](https://img.shields.io/circleci/project/mattkrick/meatier/master.svg)](https://circleci.com/gh/mattkrick/meatier)
 
-TODO: insert the goal
-TODO: insert the equipe
+------------------------
+
+# Goal, Succes and Team
+
+### Goal
+This project aim's to be a nicer interface to Google Drive that resolve the following problem with Google Drive :
+> It is hard and time consuming to manage permission on Google Drive for an highly structured organisation with big turnover rate :(
+
+### Team
+
+
+| Role          | Name   	          |
+|---            |---	              |
+| Product owner |   	              |
+| Developper  	| Tycho Tatitscheff |
+
+### Sucess
+
+*TODO*
+
+--------------------------------------
+# Technical Documentation
 
 ## Installation
 - `brew install rethinkdb`
@@ -82,7 +99,7 @@ The notes can be dragged from lane to lane. This is to showcase a local state ch
 When the note is dropped to its new location, the change is persisted.
 
 ## Contributing
-I use phabrcatr to manage my code but I also can accept Pull requests!
+I use phabrcator to manage my code but I also can accept pull requests!
 
 ## License
 MIT
